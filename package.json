@@ -1,0 +1,28 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . --overwrite --asar=true"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.2",
+    "electron-packager": "^14.1.1"
+  },
+  "dependencies": {
+    "asar": "^2.0.3",
+    "mssql": "^6.0.1"
+  }
+}
